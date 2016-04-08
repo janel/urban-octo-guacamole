@@ -74,6 +74,7 @@ $dte-spacer: 0.625rem;
 // Banner
 .banner-content {
 	background: #A1A1A4;
+	background: $cinderblock;
 	margin-bottom: $dte-spacer;
 	h2, h4 {
 		color: $white ;
@@ -104,6 +105,7 @@ $dte-spacer: 0.625rem;
 	padding: 0.8rem;
 	font-size: 0.875rem;
 
+	 p, span, a {font-size: 0.875rem;}
 }
 .external {
 	margin-top: 0.2rem;
@@ -150,4 +152,8 @@ h6.post-title {
     padding: 10px 20px;
     transform: scale(1);
   }
+}
+
+.fa-search {
+	color: $cinderblock;
 }
