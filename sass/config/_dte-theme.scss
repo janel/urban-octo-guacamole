@@ -103,8 +103,6 @@ $dte-spacer: 0.625rem;
 	background: $white;
 	margin-bottom: 0.1rem;
 	padding: 0.8rem;
-	font-size: 0.875rem;
-
 	 p, span, a {font-size: 0.875rem;}
 }
 .external {
@@ -133,8 +131,19 @@ h6.post-title {
 		text-decoration: underline;
 	}
 }
-.form-control {
+input.form-control {
 	font-size: 0.875rem;
+}
+.form-control {
+	padding: 0.5rem 5px;
+}
+
+.input-group-btn > .btn, .input-group-btn > .button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 //Forms (Modal)
