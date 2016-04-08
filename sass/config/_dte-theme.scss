@@ -1,0 +1,149 @@
+$content-block-background:  $white;
+$dte-spacer: 0.625rem;
+
+// Helper class for no gutters on rows
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > [class^="col-"],
+  > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+// Header
+.header-brand	{
+	background: $azure;
+	.logo {
+		height:100%;
+	}
+	padding: 20px 40px;
+}
+
+// Navigation 
+.navbar {
+	.navbar-nav {
+	  display: inline-block;
+	  float: none;
+	  vertical-align: top;
+		  > li {
+		  	> a {
+			  border-left: $light-grey solid 1px;
+			  font-size:0.875em;
+ 			}
+ 			&:last-of-type {
+				border-right: $light-grey solid 1px;
+			}
+		}
+	}
+
+	@media (min-width: 768px){	
+		.navbar-collapse {
+		  text-align: center;
+		}
+	}
+}
+@media (max-width: 768px) { .global-nav {
+		background: $azure;
+	}
+}
+
+// Navigation - Section 
+.nav-stacked > li {
+    font-size: 0.875rem;
+    background: white;
+    + li {
+	    margin-top: 1px;
+	    margin-left: 0;
+	}
+}
+
+.title {
+    background: $white;
+    color: $michigan-blue;
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+// Banner
+.banner-content {
+	background: #A1A1A4;
+	margin-bottom: $dte-spacer;
+	h2, h4 {
+		color: $white ;
+	}
+}
+.message {
+	margin-left: 1rem;
+	}
+
+// Main Content
+.lt_sidebar {
+	padding: 0;
+}
+
+.content-area {
+}
+
+#main {
+    background: white;
+}
+
+.rt_sidebar {
+}
+
+.component {
+	background: $white;
+	margin-bottom: 0.1rem;
+	padding: 0.8rem;
+	font-size: 0.875rem;
+
+}
+.external {
+	margin-top: 0.2rem;
+	margin-bottom: 0.2rem;
+	}
+
+.news-abstract{
+    padding: 1rem 0;
+    margin:0;
+}
+
+.ab-text {
+    padding: 0;
+}
+
+h3.title {
+	padding-top:0.5rem;
+}
+h5 {
+	color: $brand-primary;
+}
+h6.post-title {
+	margin:0;
+	a {
+		text-decoration: underline;
+	}
+}
+.form-control {
+	font-size: 0.875rem;
+}
+
+//Forms (Modal)
+.reveal-categories{
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: scale(0.8);
+  transition: 0.5s;
+  input[type="radio"]:checked ~ &,
+  input[type="checkbox"]:checked ~ & {
+    opacity: 1;
+    max-height: 500px;
+    overflow: visible;
+    padding: 10px 20px;
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,80 @@
+/*
+ * Bootstrap-specific settings.
+ */
+
+// Fonts, relative sizing overrides for ems.
+$font-size-base: $base-font-size;
+$line-height-base: $base-line-height;
+
+// Make our header twice as tall as our line-height.
+//$header-height: $base-font-size * $base-line-height * 1.5;
+
+// Colors
+$headline-color: $azure;
+$text-color: $text-grey;
+$brand-primary: $michigan-blue;
+
+$link-color: $links;
+$link-hover-color: $links;
+$link-hover-decoration: none;
+//Background color for `<body>`.
+$body-bg:               $site-bkgd;
+
+// Components
+$border-radius-base:	none;
+$border-radius-large:	none;
+$border-radius-small:	none;
+
+// Grid
+$grid-columns:	24;
+$grid-gutter-width:	20px;
+
+// Buttons
+$btn-primary-bg: $azure;
+$btn-primary-border: transparent;
+$btn-success-border: transparent;
+$btn-info-border: transparent;
+$btn-warning-border: transparent;
+$btn-danger-border: transparent;
+
+$font-family-sans-serif: $main-font;
+$font-family-serif: $accent-font;
+
+// Container Sizes
+// Small screen / tablet
+$container-tablet:             (710px + $grid-gutter-width);
+//** For `$screen-sm-min` and up.
+// $container-sm:                 $container-tablet
+// Medium screen / desktop
+$container-desktop:            (930px + $grid-gutter-width);
+//** For `$screen-md-min` and up.
+// $container-md:                 $container-desktop
+
+// Large screen / wide desktop
+$container-large-desktop:      (930px + $grid-gutter-width);
+//** For `$screen-lg-min` and up.
+// $container-lg:                 $container-large-desktop
+
+// Navbar
+// $navbar-height: calc($header-height - 2px); // Adjust for borders.
+// $navbar-margin-bottom: 0;
+// $navbar-border-radius: 0;
+// $border-radius-base: 0;
+
+// Navbar links
+$navbar-default-link-color:                #a1a1a1;
+$navbar-default-link-hover-color:          #00AEEF;
+$navbar-default-link-hover-bg:             white;
+$navbar-default-link-active-color:         #00AEEF;
+//$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%);
+// $navbar-default-link-disabled-color:       #ccc
+// $navbar-default-link-disabled-bg:          transparent
+$navbar-default-toggle-border-color:       transparent;
+$nav-link-padding:                          4px 20px;
+
+$nav-tabs-border-color: transparent;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-active-link-hover-border-color: transparent;
+$nav-tabs-justified-link-border-color: transparent;
+$nav-tabs-justified-active-link-border-color: transparent;
+

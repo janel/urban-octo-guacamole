@@ -1,0 +1,40 @@
+/*
+ * Settings for our app.
+ */
+
+// Import our fonts.
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic,700italic);
+
+// Override our font-awesome path.
+//$fa-font-path: '/bower_components/font-awesome/fonts';
+
+// Main colors.
+$white: #ffffff;
+$black: #000000;
+$michigan-blue: #004990;
+$azure: #00AEEF;
+$text-grey: #404040;
+$site-bkgd: #E5E5E4;
+$p-link: #8c3b95;
+$links: $michigan-blue;
+
+
+// Secondary colors.
+$dark-grey: #404040;
+$light-grey: #E5E5E4;
+
+// Fonts.
+$main-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$accent-font: 'Patua One', Georgia, 'Times New Roman', Times, serif;
+$fancy-font: 'Libre Baskerville', Baskerville, 'Baskerville Old Face',
+	'Hoefler Text', Garamond, 'Times New Roman', serif;
+$code-font: monospace;
+
+// Vertical rhythm / typography.
+
+// Our default baseline font size is 16px with a line height of 32px.  You can
+// change that here.
+$base-font-size: 1rem;
+
+// No units on our line height!
+$base-line-height: 1.5;
